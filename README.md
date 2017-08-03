@@ -1,5 +1,6 @@
-# ProjProposalDucusinFiedalanPelaez
+# Ticketing Booth
 # Members:  Kevin Ducusin, Kyle Pelaez, Karlo Fiedalan
-# Brief Description:
 
-Project will utilize topics, activites, lessons, and techniques taken from LBYEC72 as the core basis of the programming code of this project.
+Abstract:
+
+The project deals with the modernization of a Ticketing system that deals with simple C programming commands such as switch cases statements and the usage of ctime and cmath libraries together with C++ programming commands such as structures and functions. the program can provide a billing statement to said customer 

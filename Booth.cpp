@@ -61,7 +61,10 @@ n='Y';
 
 case 2:
 {
-
+cout<<"Please choose a search parameter"
+    <<"\n \n \n 1 - Plate no. \n"
+    <<" 2 - Date of entry";
+	
 }break;
 
 

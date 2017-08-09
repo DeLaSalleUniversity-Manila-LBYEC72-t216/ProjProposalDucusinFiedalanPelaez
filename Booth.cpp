@@ -8,10 +8,7 @@ typedef struct construction{
 	string plate;
 	int control;
 
-typedef struct calendar{
-	tm time
-};
-}data;
+
 
 int main() {
 

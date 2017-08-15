@@ -1,0 +1,88 @@
+#include<iostream>
+#include<cstring>
+using namespace std;
+
+int main()
+{
+
+int nic_num;
+int n;
+int price;
+char name[15];
+char fname[15];
+
+cout<<"Welcome to the car parking system program"<<endl;
+cout<<"Please Enter the Required Informations for car parking"<<endl;
+cout<<"_______________________________________"<<endl;
+cout<<"enter the name = ";
+cin>>name;
+cout<<"enter the father name = ";
+cin>>fname;
+
+cout<<endl<<"plz enter the ur nic number"<<endl;
+cin>>nic_num;
+
+cout<<"choose which pakage u want to park the car"<<endl<<"1 for 2hrs"<<endl<<"2 for 4 hrz"<<endl<<"3 for 6 hrz"<<endl<<"4 for 8 hrz"<<endl;
+cin>>n;
+
+switch(n)
+{
+case 1:
+{
+cout<<"you have choose the pakage no 1"<<endl;
+cout<<"car is parked for 2 hours";
+price=12*2;
+cout<<endl<<"price of ticket"<<"="<<price<<"RS"<<endl;
+break;
+}
+
+
+case 2:
+{cout<<"you have choose the pakage no 2"<<endl;
+cout<<"car is parked for 4 hours";
+price=12*4;
+cout<<endl<<"price of ticket"<<"="<<price<<"RS"<<endl;
+break;
+}
+
+case 3:
+{
+cout<<"you have choose the pakage no 3"<<endl;
+cout<<"car is parked for 6 hours";
+price=12*6;
+cout<<endl<<"price of ticket"<<"="<<price<<"RS"<<endl;
+break;
+}
+
+case 4:
+{
+cout<<"you have choose the pakage no 4"<<endl;
+cout<<"car is parked for 8 hours";
+price=12*8;
+cout<<endl<<"price of ticket"<<"="<<price<<"RS"<<endl;
+break;
+}
+
+
+
+default:
+{
+cout<<"no package is here the choice u entered"<<endl<<"try agian"<<endl;
+}
+
+}
+cout<<"thank you for using our services"<<endl;
+cout<<"................................";
+
+cout<<endl<<endl;
+cout<<endl<<endl<<".....R.E.C.I.P.T....."<<endl;
+cout<<endl<<"Your name is ="<<name;
+cout<<endl<<"Your father name is ="<<fname<<endl;
+cout<<"Your Nic number is = "<<nic_num<<endl;
+cout<<"Package You choosed is number = "<<n<<endl;
+cout<<"-----------------------------------------"<<endl;
+cout<<"thank you for using our parking service"<<endl;
+cout<<"-----------------------------------------"<<endl;
+
+
+return 0; }
